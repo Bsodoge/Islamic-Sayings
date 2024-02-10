@@ -1,6 +1,6 @@
 const SUCCESS_POPUP_DURATION = 2000;
 const sayingsContainer = document.getElementById("sayings_container");
-let sayings = null;
+let sayings = undefined;
 let successPopupVisible = false;
 
 const createSayingElement = (key, saying, transliteration, translation) => {
@@ -51,8 +51,10 @@ const createSayingElement = (key, saying, transliteration, translation) => {
 }
 
 const getSayings = async () => {
-    const response = await fetch("./sayings.json");
-    sayings = await response.json();
+    if(!sayings){
+        const response = await fetch("./sayings.json");
+        sayings = await response.json();
+    }
     sayings.forEach(element => {
         sayingsContainer.append(createSayingElement(element.key, element.saying, element.transliteration, element.translation));
     });
