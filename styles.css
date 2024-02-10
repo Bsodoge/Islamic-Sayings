@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbf8ef;
+    font-family: "Scheherazade New", serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.header,
+.instruction {
+    color: #437110;
+    text-align: center;
+}
+
+.header {
+    background-color: #bdde98;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2.75rem;
+}
+
+.sayings_area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    flex: 1;
+    padding: 2rem;
+}
+
+.instruction {
+    font-size: 1.75rem;
+}
+
+.hover_container, .successful {
+    position: absolute;
+    display: none;
+}
+
+.sayings_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+    border-top: 3px solid #bdde98;
+    padding: 4rem;
+    gap: 64px;
+}
+
+.saying_container {
+    display: grid;
+    align-items: center;
+    position: relative;
+    background-color: #FFF;
+    box-shadow: 0 1px 0 0 #0F0F0F;
+    inset: 0 0 0 0;
+    padding: 0.25rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.75rem;
+    user-select: none;
+    text-align: center;
+}
+
+.successful.visible{
+    background-color: #437110;
+    color: #FFF;
+    min-width: 200px;
+}
+
+.search_bar{
+    width: 20rem;
+    padding: 0.5rem 0;
+    text-indent: 5px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #437110;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    min-width: 170%;
+    left: 2.5%;
+    bottom: 110%;
+    background-color: #fff;
+    gap: 4px;
+    font-size: 1.5rem;
+    box-shadow: 0 0 1px 0 #0F0F0F;
+    padding: 0.25rem;
+    overflow-wrap: break-word;
+    user-select: text;
+    z-index: 100;
+}
+.visible:hover{
+    cursor: auto;
+}
+
+.saying_container:hover {
+    cursor: pointer;
+}
+
+.footer {
+    border-top: 3px solid #bdde98;
+    padding: 1rem 0;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    align-items: center;
+    font-size: 1.25rem;
+}

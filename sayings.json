@@ -1,0 +1,86 @@
+[
+    {
+        "key": 0,
+        "saying": "السلام عليكم",
+        "transliteration": "Assalamu Alaikom",
+        "translation": "Peace be upon you"
+    },
+    {
+        "key": 1,
+        "saying": "السلام عليكم و رحمة الله و بركاته",
+        "transliteration": "Assalamu Alaikom warahmatu Allahi wa barakatuhu",
+        "translation": "Peace be upon you and Allah’s mercy and blessings"
+    },
+    {
+        "key": 2,
+        "saying": "الحمد لله",
+        "transliteration": "Alhamdulillah",
+        "translation": "Praise to Allah"
+    },
+    {
+        "key": 3,
+        "saying": "سبحان الله",
+        "transliteration": "Subhanallah",
+        "translation": "Glory to Allah"
+    },
+    {
+        "key": 4,
+        "saying": "بسم الله",
+        "transliteration": "Bismillah",
+        "translation": "In the name of Allah"
+    },
+    {
+        "key": 5,
+        "saying": "أشهد أن لا إله إلا الله و أشهد أن محمد رسول الله",
+        "transliteration": "Ash-hadu An laa Elaha Ella Allah wa Ash-hadu anna Muhammadan Rasulu Allah.",
+        "translation": "I bear witness that there is no other God but Allah, and I bear witness that Muhammad is the messenger of the Allah"
+    },
+    {
+        "key": 6,
+        "saying": "الله أعلم",
+        "transliteration": "Allahu A’lam",
+        "translation": "Allah knows best"
+    },
+    {
+        "key": 7,
+        "saying": "جزاك الله خيرا",
+        "transliteration": "Jazaka Allahu Khairan",
+        "translation": "May Allah reward you with all good"
+    },
+    {
+        "key": 8,
+        "saying": "ﷺ",
+        "transliteration": " Sallallahu Alaihi Wasallam",
+        "translation": "Peace and blessings of Allah be upon him"
+    },
+    {
+        "key": 9,
+        "saying": "﷽",
+        "transliteration": "Bismillahir Rahmanir Raheem",
+        "translation": "In the Name of Allah, the Most Gracious, the Most Merciful"
+    },
+    {
+        "key": 10,
+        "saying": "عليه السلام",
+        "transliteration": "Alayhis Salam",
+        "translation": "Peace be upon him"
+    },
+    {
+        "key": 11,
+        "saying": "إن شاء الله",
+        "transliteration": "Inshallah",
+        "translation": "If Allah wills"
+    },
+    {
+        "key": 12,
+        "saying": "لا إله إلا الله",
+        "transliteration": "La ilaha illa Allah",
+        "translation": "There is no god but Allah"
+    },
+    {
+        "key": 13,
+        "saying": "لا حول ولا قوة إلا بالله",
+        "transliteration": "La hawla wala quwata illa billah",
+        "translation": "There is no change/ transformation nor power/ strength except through Allah"
+    }
+]
