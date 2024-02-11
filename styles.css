@@ -1,4 +1,5 @@
-body {
+body,
+html {
     padding: 0;
     margin: 0;
     min-height: 100vh;
@@ -39,7 +40,8 @@ body {
     font-size: 1.75rem;
 }
 
-.hover_container, .successful {
+.hover_container,
+.successful {
     position: absolute;
     display: none;
 }
@@ -69,13 +71,13 @@ body {
     text-align: center;
 }
 
-.successful.visible{
+.successful.visible {
     background-color: #437110;
     color: #FFF;
     min-width: 200px;
 }
 
-.search_bar{
+.search_bar {
     width: 20rem;
     padding: 0.5rem 0;
     text-indent: 5px;
@@ -99,7 +101,8 @@ body {
     user-select: text;
     z-index: 100;
 }
-.visible:hover{
+
+.visible:hover {
     cursor: auto;
 }
 
@@ -121,6 +124,6 @@ body {
     font-size: 1.25rem;
 }
 
-.symbol{
+.symbol {
     font-size: 3rem;
 }
