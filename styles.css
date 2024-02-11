@@ -87,7 +87,7 @@ body {
 .visible {
     display: flex;
     flex-direction: column;
-    min-width: 170%;
+    min-width: 140%;
     left: 2.5%;
     bottom: 110%;
     background-color: #fff;
@@ -119,4 +119,8 @@ body {
     margin: 0 1rem;
     align-items: center;
     font-size: 1.25rem;
+}
+
+.symbol{
+    font-size: 3rem;
 }

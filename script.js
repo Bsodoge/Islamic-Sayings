@@ -3,7 +3,7 @@ const sayingsContainer = document.getElementById("sayings_container");
 let sayings = undefined;
 let successPopupVisible = false;
 
-const createSayingElement = (key, saying, transliteration, translation) => {
+const createSayingElement = (key, saying, transliteration, translation, symbol) => {
     const container = document.createElement("div");
     container.classList.add("saying_container");
     container.id = key;
@@ -15,7 +15,7 @@ const createSayingElement = (key, saying, transliteration, translation) => {
                         <div class="transliteration">Transliteration: ${transliteration}</div>
                         <div class="translation">Translation: ${translation}</div>
                     </div>
-                    <div class="item_container">
+                    <div class="item_container ${symbol ? "symbol" : ""}">
                     ${saying}
                     </div>`;
     container.addEventListener("mouseover", () => {
@@ -56,7 +56,7 @@ const getSayings = async () => {
         sayings = await response.json();
     }
     sayings.forEach(element => {
-        sayingsContainer.append(createSayingElement(element.key, element.saying, element.transliteration, element.translation));
+        sayingsContainer.append(createSayingElement(element.key, element.saying, element.transliteration, element.translation, element.symbol));
     });
 }
 
