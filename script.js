@@ -35,8 +35,8 @@ const createSayingElement = (key, saying, transliteration, translation, symbol) 
         try {
             const successContainer = document.getElementById(`successful_${key}`);
             const hoverContainer = document.getElementById(`hover_${key}`);
-            await navigator.clipboard.writeText(saying);
             hoverContainer.classList.remove("visible");
+            await navigator.clipboard.writeText(saying);
             successContainer.classList.add("visible");
             successPopupVisible = true;
             setTimeout(() => {
